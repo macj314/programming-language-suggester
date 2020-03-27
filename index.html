@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
   </head>
   <body>
     <h1>Programming Language Suggestor</h1>    
-    <div class="container-fluid" id="container-survey">
+    <div class="container-fluid">
       <form id="form-survey">
         <div class="form-group">
 
@@ -20,13 +20,13 @@
             <label for="input-language">Desired Language</label>
             <input type="text" name="form-control" id="input-language">        
           </div>
-          <div class="radio panel row">
+          <div class="radio row">
             <div id="radio-environment" class="panel col">
               <h5>What is your ideal work environment?</h5>
               <label><input type="radio" name="environment" value="1" checked>Office</label>
               <label><input type="radio" name="environment" value="2">Remote</label>
             </div>
-            <div id="radio-color" class="col">
+            <div id="radio-color" class="panel col">
               <h5>Pick your favorite color</h5>
               <label><input type="radio" name="color" value="1" checked>Blue</label>
               <label><input type="radio" name="color" value="2">Red</label>  
@@ -37,7 +37,7 @@
           
           <div class="selector row">
             <div id="selector-cat" class="panel col">
-              <h5>Please select your prefered cat breed. note: this is crucial in understanding your future.</h5>
+              <h5>Please select your prefered cat breed. note: snakes are indeed cats.</h5>
               <select id="cat">
                 <option value="1">Scottish Longhair</option>
                 <option value="2">Maine Coon</option>
@@ -58,12 +58,12 @@
           </div>
 
         </div>
-        <button type="submit" class="btn">Enter</button>
+        <div class="text-center"><button type="submit" class="btn">Enter</button></div>
       </form>
    </div>
     <div id="input"></div>
 
-    <div class="Container language-name">
+    <div class="Container language-container">
       <div id="language-prefix">
         <h3>
         So you think you'd be best suited for <span id="user-language"></span>.
