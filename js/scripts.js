@@ -8,9 +8,13 @@ $(document).ready(function(){
     var caffeine = $("#caffeine").val();
     $("#input").text(color);
 
-    if(color === 1){
-    var ruby = $(".language-name").children("#ruby");
-    $(ruby).show;
+    $("#user-language").text(inputLanguage);
+    $("#language-prefix").show();
+
+    if(color === 2){
+    $("#ruby").show();
+    } else {
+      $("#js").show();
     }
   })
 })

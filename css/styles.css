@@ -1,3 +1,20 @@
-.language-name{
+img{
+  height: 200px;
+  width: 200px;
+}
+
+#language-prefix{
+  display: none;
+}
+
+#ruby{
+  display: none;
+}
+
+#js{
+  display: none;
+}
+
+#python{
   display: none;
 }
