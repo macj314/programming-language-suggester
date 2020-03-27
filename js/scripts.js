@@ -6,6 +6,11 @@ $(document).ready(function(){
     var color = parseInt($("input:radio[name=color]:checked").val());
     var cat = parseInt($("#cat").val());
     var caffeine = $("#caffeine").val();
-    $("#input").text(caffeine);
+    $("#input").text(color);
+
+    if(color === 1){
+    var ruby = $(".language-name").children("#ruby");
+    $(ruby).show;
+    }
   })
 })
