@@ -4,7 +4,8 @@ $(document).ready(function(){
     var inputLanguage = $("#input-language").val();
     var environment = parseInt($("input:radio[name=environment]:checked").val());
     var color = parseInt($("input:radio[name=color]:checked").val());
-
-    $("#input").text(environment);
+    var cat = parseInt($("#cat").val());
+    var caffeine = $("#caffeine").val();
+    $("#input").text(caffeine);
   })
 })
