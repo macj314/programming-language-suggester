@@ -10,12 +10,15 @@
     <title>Programming Language Suggester</title>
   </head>
   <body>
-    <h1>Programming Language Suggestor</h1>    
+    <div class="panel-heading">
+    <h1 class="panel-title">Programming Language Suggestor</h1>   
+    <hr class="col-5">
+    </div> 
     <div class="container-fluid">
       <form id="form-survey">
         <div class="form-group">
 
-          <div class="panel">
+          <div class="panel" id="panel-input-text">
             <h5>Let us start by picking your current desired programming language:</h5>
             <label for="input-language">Desired Language</label>
             <input type="text" name="form-control" id="input-language">        
@@ -63,7 +66,6 @@
       </form>
       <hr>
    </div>
-    <div id="input"></div>
 
     <div class="Container language-container">
       <div id="language-prefix">
@@ -74,17 +76,27 @@
       </div>
       <div id="ruby">
         <img src="img/ruby.png" alt="Ruby Logo">
-        <h3>Congratulations! You got Ruby</h3>
-        <p>This fun language yadayadayada</p>
+        <div class="panel panel-description">
+          <h3>Congratulations! You got Ruby</h3>
+          <p>
+            Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+            Ruby is dynamically typed and uses garbage collection. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.
+          </p>
+        </div>
       </div>
       <div id="js">
         <img src="img/js.png" alt="JS Logo">
-        <h3>This is it! It's Javascript!</h3>
-        <p>yadayadayada</p>
+        <div class="panel panel-description">
+          <h3>This is it! It's Javascript!</h3>
+          <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+        </div>
       </div>
       <div id="python">
         <img src="img/python.png" alt="Python Logo">
-        <p>yadayadayada</p>
+        <div class="panel panel-description">
+          <h3>Right on! You Got Python!</h3>
+          <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+        </div>
       </div>      
     </div>
   </body>

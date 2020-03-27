@@ -6,11 +6,17 @@ body{
 }
 
 hr{
-  border-color: rgb(99, 233, 233);
+  background-color: rgb(99, 233, 233);
+}
+
+hr.col-5{
+  margin: 0;
+  padding: 0;
+  float: left;
 }
 
 .col{
-  border-right: inset 1px black;
+  background-color: black;
 }
 
 .row{
@@ -19,8 +25,9 @@ hr{
 }
 
 .panel{
-  border:1px  black;
-  padding: 2%;
+  background-color: lightblue;
+  padding: 1%;
+  margin: 2%;
 }
 
 .btn{
@@ -51,6 +58,11 @@ hr{
 #python{
   display: inline-block;
   display: none;
+}
+
+.panel-description{
+  display: inline-block;
+  width: 70%;
 }
 
 img{
