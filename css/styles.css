@@ -1,15 +1,26 @@
 body{
+  border-left: inset 1px rgb(99, 233, 233);
+  padding: 1%;
+  margin: 1%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr{
+  border-color: rgb(99, 233, 233);
+}
+
+.col{
+  border-right: inset 1px black;
 }
 
 .row{
   margin: 3%;
+  padding-left: 5%;
 }
 
 .panel{
-  
-  border-bottom: 1px;
-  border-color: olive;
+  border:1px  black;
+  padding: 2%;
 }
 
 .btn{
