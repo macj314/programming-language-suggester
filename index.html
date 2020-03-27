@@ -11,52 +11,56 @@
   </head>
   <body>
     <h1>Programming Language Suggestor</h1>    
-    
-    <form id="form-survey">
-      <div class="form-group">
-        <h5>Let us start by picking your current desired programming language:</h5>
-        <label for="input-language">Desired Language</label>
-        <input type="text" name="form-control" id="input-language">        
+    <div class="container-fluid" id="container-survey">
+      <form id="form-survey">
+        <div class="form-group">
 
-        <div class="radio">
-          <div id="radio-environment">
-            <h5>What is your ideal work environment?</h5>
-            <label><input type="radio" name="environment" value="1" checked>Remote</label>
-            <label><input type="radio" name="environment" value="2">Office</label>
+          <div class="panel">
+            <h5>Let us start by picking your current desired programming language:</h5>
+            <label for="input-language">Desired Language</label>
+            <input type="text" name="form-control" id="input-language">        
           </div>
-          <div id="radio-color">
-            <h5>Pick your favorite color</h5>
-            <label><input type="radio" name="color" value="1" checked>Blue</label>
-            <label><input type="radio" name="color" value="2">Red</label>  
-            <label><input type="radio" name="color" value="3">Yellow</label>
-            <label><input type="radio" name="color" value="4">Green</label>
-          </div>          
-        </div>
-        
-        <div class="selector">
-          <h5>Please select your prefered cat breed. note: this is crucial in understanding your future.</h5>
-          <select id="cat">
-            <option value="1">Scottish Longhair</option>
-            <option value="2">Maine Coon</option>
-            <option value="3">Siamese</option>
-            <option value="4">Sphynx</option>
-            <option value="5">Munchkin</option>
-          </select>
-        </div>
-        <div class="selector">
-          <h5>Finally, what's your favorite caffeinated drink?</h5>
-          <select id="caffeine">
-            <option value="coffee">Coffee</option>
-            <option value="tea">Tea</option>
-            <option value="soda">Soda</option>
-            <option value="energy">Energy Drinks</option>
-          </select>
-       </div>
+          <div class="radio panel row">
+            <div id="radio-environment" class="panel col">
+              <h5>What is your ideal work environment?</h5>
+              <label><input type="radio" name="environment" value="1" checked>Office</label>
+              <label><input type="radio" name="environment" value="2">Remote</label>
+            </div>
+            <div id="radio-color" class="col">
+              <h5>Pick your favorite color</h5>
+              <label><input type="radio" name="color" value="1" checked>Blue</label>
+              <label><input type="radio" name="color" value="2">Red</label>  
+              <label><input type="radio" name="color" value="3">Yellow</label>
+              <label><input type="radio" name="color" value="4">Green</label>
+            </div>          
+          </div>
+          
+          <div class="selector row">
+            <div id="selector-cat" class="panel col">
+              <h5>Please select your prefered cat breed. note: this is crucial in understanding your future.</h5>
+              <select id="cat">
+                <option value="1">Scottish Longhair</option>
+                <option value="2">Maine Coon</option>
+                <option value="3">Siamese</option>
+                <option value="4">Sphynx</option>
+                <option value="5">Snake</option>
+              </select>
+            </div>
+            <div id="selector-caffeine" class="panel col">
+              <h5>Finally, what's your favorite caffeinated drink?</h5>
+              <select id="caffeine">
+                <option value="coffee">Coffee</option>
+                <option value="tea">Tea</option>
+                <option value="soda">Soda</option>
+                <option value="energy">Energy Drinks</option>
+              </select>
+            </div>
+          </div>
 
-      </div>
-      <button type="submit" class="btn">Enter</button>
-    </form>
-
+        </div>
+        <button type="submit" class="btn">Enter</button>
+      </form>
+   </div>
     <div id="input"></div>
 
     <div class="Container language-name">
