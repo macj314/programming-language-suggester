@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px) {
+  img{
+    float: none;
+  }
+}
+
 body{
   border-left: inset 1px rgb(99, 233, 233);
   padding: 1%;
@@ -15,6 +21,10 @@ hr.col-5{
   float: left;
 }
 
+h1{
+  font-style: italic;
+}
+
 .col{
   background-color: black;
 }
@@ -25,7 +35,8 @@ hr.col-5{
 }
 
 .panel{
-  background-color: lightblue;
+  background-color: #0066cc;
+  color: aliceblue;
   padding: 1%;
   margin: 2%;
 }
@@ -37,7 +48,7 @@ hr.col-5{
   margin: 0 auto;
 }
 
-.language-container{
+.container-language{
   text-align: center;
 }
 
@@ -66,6 +77,7 @@ hr.col-5{
 }
 
 img{
+  float: left;
   height: 200px;
   width: 200px;
 }

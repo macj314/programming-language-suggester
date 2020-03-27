@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="panel-heading">
-    <h1 class="panel-title">Programming Language Suggestor</h1>   
+    <h1 class="panel-title">Programming Language Suggester</h1>   
     <hr class="col-5">
     </div> 
     <div class="container-fluid">
@@ -19,19 +19,19 @@
         <div class="form-group">
 
           <div class="panel" id="panel-input-text">
-            <h5>Let us start by picking your current desired programming language:</h5>
+            <h4>Let us start by picking your current desired programming language:</h4>
             <label for="input-language">Desired Language</label>
             <input type="text" name="form-control" id="input-language">        
           </div>
           <hr>
           <div class="radio row">
             <div id="radio-environment" class="panel col">
-              <h5>What is your ideal work environment?</h5>
+              <h4>What is your ideal work environment?</h4>
               <label><input type="radio" name="environment" value="1" checked>Office</label>
               <label><input type="radio" name="environment" value="2">Remote</label>
             </div>
             <div id="radio-color" class="panel col">
-              <h5>Pick your favorite color</h5>
+              <h4>Pick your favorite color</h4>
               <label><input type="radio" name="color" value="1" checked>Blue</label>
               <label><input type="radio" name="color" value="2">Red</label>  
               <label><input type="radio" name="color" value="3">Yellow</label>
@@ -41,7 +41,7 @@
           
           <div class="selector row">
             <div id="selector-cat" class="panel col">
-              <h5>Please select your prefered cat breed. note: snakes are indeed cats.</h5>
+              <h4>Please select your prefered cat breed. note: snakes are indeed cats.</h4>
               <select id="cat">
                 <option value="1">Scottish Longhair</option>
                 <option value="2">Maine Coon</option>
@@ -51,7 +51,7 @@
               </select>
             </div>
             <div id="selector-caffeine" class="panel col">
-              <h5>Finally, what's your favorite caffeinated drink?</h5>
+              <h4>Finally, what's your favorite caffeinated drink?</h4>
               <select id="caffeine">
                 <option value="coffee">Coffee</option>
                 <option value="tea">Tea</option>
@@ -67,7 +67,7 @@
       <hr>
    </div>
 
-    <div class="Container language-container">
+    <div class="Container container-language">
       <div id="language-prefix">
         <h3>
         So you think you'd be best suited for <span id="user-language"></span>.
@@ -78,6 +78,7 @@
         <img src="img/ruby.png" alt="Ruby Logo">
         <div class="panel panel-description">
           <h3>Congratulations! You got Ruby</h3>
+          <hr>
           <p>
             Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
             Ruby is dynamically typed and uses garbage collection. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.
@@ -88,6 +89,7 @@
         <img src="img/js.png" alt="JS Logo">
         <div class="panel panel-description">
           <h3>This is it! It's Javascript!</h3>
+          <hr>
           <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
         </div>
       </div>
@@ -95,6 +97,7 @@
         <img src="img/python.png" alt="Python Logo">
         <div class="panel panel-description">
           <h3>Right on! You Got Python!</h3>
+          <hr>
           <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
         </div>
       </div>      
